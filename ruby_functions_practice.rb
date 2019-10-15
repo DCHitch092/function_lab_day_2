@@ -64,4 +64,8 @@ def volume_of_sphere(radius)
   return float.to_i
 end
 
-p volume_of_sphere(5)
+def fahrenheit_to_celsius(tempF)
+  #(32°F − 32) × 5/9 = 0°C
+  num1 = tempF - 32
+  return num1*5/9
+end
