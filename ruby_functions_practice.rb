@@ -28,3 +28,7 @@ def join_string( string_1, string_2)
   string_2 = "its fleece was white as snow"
   return string_1 + string_2
 end
+
+def add_string_as_number(string_1, string_2)
+  return string_1.to_i + string_2.to_i
+end
